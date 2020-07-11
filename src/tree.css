@@ -1,0 +1,69 @@
+
+body {
+    background-image: url("bg.png");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.family {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.parents {
+    display: flex;
+    flex-direction: column;
+}
+
+.kids {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 150px;
+}
+
+.person {
+    background-image: url("people.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position-y: center;
+    height: fit-content;
+    min-width: 150px;
+    flex-basis: auto;
+    text-align: left;
+    padding: 17px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
+.person:hover {
+    background-color: red !important;
+    cursor: hand;
+    transition: all 2s;
+    border-radius: 20px;
+}
+
+.family-true {
+    position: sticky;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    align-self: flex-start;
+    margin-left: 10px;
+    font-family: Impact;
+    font-size: 20px;
+    color: darkseagreen;
+}
+
+
+
+
