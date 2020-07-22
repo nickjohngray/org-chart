@@ -1,4 +1,8 @@
+### Organisational chart example
+this project shows how to build an organisational tree from json data using recursion and tricky css
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
